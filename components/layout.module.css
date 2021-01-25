@@ -1,0 +1,32 @@
+/* .main {
+    @apply m-2;
+}
+
+.container {
+    @apply grid ;
+    @apply gap-4;
+    @apply lg:grid-cols-5;
+    @apply xl:grid-cols-7;
+}
+
+.navigation {
+    @apply lg:col-span-1;
+    @apply xl:col-span-1;
+}
+
+.header {
+    @apply bg-blue-800;
+    @apply text-white;
+    @apply text-center;
+    @apply rounded;
+    @apply my-2;
+    @apply p-4;
+}
+
+.berichte {
+    @apply rounded;
+    @apply col-span-1;
+    @apply xl:col-span-4;
+    @apply border;
+    @apply border-blue-800;
+} */
