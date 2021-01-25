@@ -5,7 +5,7 @@ import Berichte from './berichte'
 import Mitteilungen from './mitteilungen'
 import Footer from './footer'
 
-const siteTitle = 'Gymnasium Cäcilienschule Oldenburg'
+const siteTitle = 'not Gymnasium Cäcilienschule Oldenburg'
 
 export default function Layout({ children, home }) {
   return (
