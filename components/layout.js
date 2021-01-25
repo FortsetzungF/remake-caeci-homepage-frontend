@@ -19,7 +19,7 @@ export default function Layout({ children, home }) {
       <main className="m-2">
         {/* Header */}
         <div className="bg-blue-800 text-white text-center rounded my-2 p-4">
-          <div className="text-3xl">Gymnasium Cäcilienschule Oldenburg</div>
+          <div className="text-3xl">not Gymnasium Cäcilienschule Oldenburg</div>
           <div className="text-1xl">unesco-projekt-schule</div>
         </div>
 
