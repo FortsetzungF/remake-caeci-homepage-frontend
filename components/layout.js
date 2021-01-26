@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './header'
 import Navigation from './navigation'
 import Banner from './banner'
 import Berichte from './berichte'
@@ -18,10 +19,7 @@ export default function Layout({ children, home }) {
 
       <main className="m-2">
         {/* Header */}
-        <div className="bg-blue-800 text-white text-center rounded my-2 p-4">
-          <div className="text-3xl">not Gymnasium Cäcilienschule Oldenburg</div>
-          <div className="text-1xl">unesco-projekt-schule</div>
-        </div>
+        <Header />
 
         <div className="grid gap-4 lg:grid-cols-5 xl:grid-cols-7">
           <Navigation className="lg:col-span-1 xl:col-span-1" />
@@ -33,7 +31,7 @@ export default function Layout({ children, home }) {
           <Mitteilungen className="col-span-1 xl:col-span-2" />
         </div>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
