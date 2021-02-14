@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
           <Mitteilungen className="col-span-1 xl:col-span-2" />
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
