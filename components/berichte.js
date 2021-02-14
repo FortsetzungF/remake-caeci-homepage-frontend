@@ -18,13 +18,13 @@ export default function Layout() {
         })} */}
 
           {!data ? <div className="p-2 font-thin text-center text-gray-400">
-            Loading...
+            lade Berichte...
           </div> : <div className="divide-y divide-blue-200 px-2">
             {data.reverse().map((element) => {
               return(
-                <div className="pb-2" key={element.id}>
+                <div className="p-1" key={element.id}>
                   <p className="text-xl ">{element.title}</p>
-                  {element.img ? <img className="py-1 text-gray-400 font-mono" src={element.img} alt="could't load image" /> : <></>}
+                  {element.img ? <img className="py-2 text-gray-400 font-mono" src={element.img} alt="could't load image" /> : <></>}
                   {element.text}
                 </div>
               )
