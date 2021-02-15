@@ -17,7 +17,7 @@ export default function Layout() {
           </div>
         })} */}
 
-          {!data ? <div className="p-2 font-thin text-center text-gray-400">
+          {!data ? <div className="p-2 font-thin text-center text-gray-500">
             lade Berichte...
           </div> : <div className="divide-y divide-blue-200 px-2">
             {data.reverse().map((element) => {
@@ -31,8 +31,8 @@ export default function Layout() {
             })}
           </div>}
 
-          {error ? <div className="p-2 font-thin text-center text-gray-400">
-            an error accured
+          {error ? <div className="p-2 font-thin text-center text-gray-500">
+            ein Fehler ist aufgetreten...
           </div> : <></>}
       </div>          
     )

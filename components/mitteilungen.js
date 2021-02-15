@@ -11,7 +11,7 @@ export default function Layout() {
               Mitteilungen aus der Cäci
             </div>
 
-            {!data ? <div className="px-2 py-4 font-thin text-center text-gray-400">
+            {!data ? <div className="px-2 py-4 font-thin text-center text-gray-500">
               lade Mitteilungen...
             </div> : <div className="divide-y divide-blue-200 px-2">
               {data.reverse().map((element) => {
@@ -24,8 +24,8 @@ export default function Layout() {
               })}
             </div>}
 
-          {error ? <div className="p-2 font-thin text-center text-gray-400">
-            an error accured
+          {error ? <div className="p-2 font-thin text-center text-gray-500">
+            ein Fehler ist aufgetreten...
           </div> : <></>}
 
 
@@ -34,6 +34,6 @@ export default function Layout() {
             {/* <div class="p-2"> 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officia necessitatibus quas debitis aspernatur qui iste atque. Explicabo, molestias? Id repudiandae magnam nisi asperiores quidem, architecto provident possimus saepe sunt! Porro molestiae laudantium itaque mollitia voluptatum, neque deserunt ipsa laboriosam impedit, placeat animi officia sint, vitae minus quae ullam officiis.
             </div> */}
-      </div>          
+      </div>     
     )
   }
